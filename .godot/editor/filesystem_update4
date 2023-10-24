@@ -1,0 +1,10 @@
+res://Scenes/main.tscn
+res://Scenes/pause_menu.gdshader
+res://Scenes/Paddle/paddle.tscn
+res://Final.tscn
+res://Scenes/UI/ui.tscn
+res://Scenes/wall.tscn
+res://Scenes/Ball/ball.tscn
+res://Scenes/pause_menu.tscn
+res://Scenes/menu_principal.tscn
+res://Scenes/main.gd

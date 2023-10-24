@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://e6kupyu3uco4"]
+
+[ext_resource type="Script" path="res://Scenes/Paddle/paddle.gd" id="1_rl24r"]
+[ext_resource type="Texture2D" uid="uid://bqgp333v20j0o" path="res://Scenes/Paddle/elementExplosive020.png" id="2_r73oe"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_obb0f"]
+size = Vector2(71, 219)
+
+[node name="Paddle" type="RigidBody2D"]
+lock_rotation = true
+script = ExtResource("1_rl24r")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_r73oe")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 0.5)
+scale = Vector2(1.1, 1.1)
+shape = SubResource("RectangleShape2D_obb0f")

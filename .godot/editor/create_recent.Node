@@ -1,0 +1,11 @@
+Label
+TextureRect
+Button
+VBoxContainer
+MarginContainer
+ColorRect
+VisibleOnScreenEnabler2D
+VisibleOnScreenNotifier2D
+AudioStreamPlayer2D
+AudioStreamPlayer
+Sprite2D

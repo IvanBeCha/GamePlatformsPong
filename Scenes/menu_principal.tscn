@@ -1,0 +1,102 @@
+[gd_scene load_steps=7 format=3 uid="uid://6vekus78vdf0"]
+
+[ext_resource type="Script" path="res://Menu_principal.gd" id="1_3omil"]
+[ext_resource type="Texture2D" uid="uid://bb3aoau3ul8hb" path="res://Scenes/UI/UachLogo.png" id="2_joxh3"]
+[ext_resource type="Texture2D" uid="uid://cjyyafwsuwvqe" path="res://Scenes/UI/pixelback.jpg" id="2_t5vf3"]
+[ext_resource type="FontFile" uid="uid://bgbf3lnemfb4j" path="res://Fonts/Kenney Future Narrow.ttf" id="3_vtjtt"]
+[ext_resource type="Texture2D" uid="uid://dgb5xai7w78uw" path="res://Scenes/UI/Paddles.png" id="4_isvft"]
+[ext_resource type="FontFile" uid="uid://sh1cpu8vmf7b" path="res://Fonts/Kenney Blocks.ttf" id="4_ve2ra"]
+
+[node name="Menu_principal" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_3omil")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 1148.0
+offset_bottom = 644.0
+texture = ExtResource("2_t5vf3")
+expand_mode = 1
+
+[node name="Uach" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 914.0
+offset_top = 45.0
+offset_right = 1108.0
+offset_bottom = 154.0
+texture = ExtResource("2_joxh3")
+expand_mode = 1
+
+[node name="Raquetas" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 247.0
+offset_top = -53.0
+offset_right = 928.0
+offset_bottom = 330.0
+texture = ExtResource("4_isvft")
+expand_mode = 1
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 478.0
+offset_top = 421.0
+offset_right = 527.0
+offset_bottom = 487.0
+scale = Vector2(3, 3)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="Jugar" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_vtjtt")
+theme_override_font_sizes/font_size = 20
+text = "Jugar
+"
+
+[node name="Salir" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_vtjtt")
+theme_override_font_sizes/font_size = 20
+text = "Salir"
+
+[node name="Datos" type="Label" parent="."]
+layout_mode = 0
+offset_left = 14.0
+offset_top = 532.0
+offset_right = 304.0
+offset_bottom = 636.0
+text = "Alumno: Ivan Bejarano Chaine
+Matricula: 338729
+Facultad de Ingenieria
+Universidad Autonoma de Chihuahua"
+
+[node name="Datos 2" type="Label" parent="."]
+layout_mode = 0
+offset_left = 852.0
+offset_top = 552.0
+offset_right = 1142.0
+offset_bottom = 633.0
+text = "Materia: Game Platforms
+Docente: Alberto Pacheco Gonzalez
+Carrera: Ciencias de la computacion"
+
+[node name="Titulo" type="Label" parent="."]
+layout_mode = 0
+offset_left = 298.0
+offset_top = 105.0
+offset_right = 898.0
+offset_bottom = 408.0
+theme_override_fonts/font = ExtResource("4_ve2ra")
+theme_override_font_sizes/font_size = 150
+text = "PONG"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Jugar" to="." method="_on_jugar_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Salir" to="." method="_on_salir_pressed"]

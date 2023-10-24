@@ -1,0 +1,53 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1698172972
+elementGlass012.png::CompressedTexture2D::1155639138873818599::1697581833::1697581840::1::::<><>::
+Final.gd::GDScript::-1::1697581475::0::1::::<>Area2D<>::
+Final.tscn::PackedScene::1518505950495961486::1698172723::0::1::::<><>::res://Final.gd
+Flowing Rocks.ogg::AudioStreamOggVorbis::2877801293613891247::1697583284::1698083540::1::::<><>::
+impactGeneric_light_004.ogg::AudioStreamOggVorbis::6926417968601706083::1697583975::1697583975::1::::<><>::
+Menu_principal.gd::GDScript::-1::1698101779::0::1::::<>Control<>::
+pongping.jpg::CompressedTexture2D::4321726860993845315::1698099587::1698099598::1::::<><>::
+::res://Fonts/::1698099596
+Kenney Blocks.ttf::FontFile::1279432863436990245::1698099411::1698099416::1::::<><>::
+Kenney Bold.ttf::FontFile::4342501891973952::1698099411::1698099416::1::::<><>::
+Kenney Future Narrow.ttf::FontFile::2809972308505809935::1698099411::1698099416::1::::<><>::
+Kenney Future Square.ttf::FontFile::5224738524851009843::1698099412::1698099416::1::::<><>::
+Kenney Future.ttf::FontFile::1832085180197149945::1698099412::1698099416::1::::<><>::
+Kenney High Square.ttf::FontFile::3543230681723277905::1698099412::1698099415::1::::<><>::
+Kenney High.ttf::FontFile::1658309448887080822::1698099412::1698099415::1::::<><>::
+Kenney Mini Square Mono.ttf::FontFile::4887208399768610622::1698099412::1698099415::1::::<><>::
+Kenney Mini Square.ttf::FontFile::7004199739649873856::1698099412::1698099415::1::::<><>::
+Kenney Mini.ttf::FontFile::5597487928203448492::1698099412::1698099415::1::::<><>::
+Kenney Pixel Square.ttf::FontFile::2399672380752467455::1698099412::1698099415::1::::<><>::
+Kenney Pixel.ttf::FontFile::1754485343139770081::1698099412::1698099415::1::::<><>::
+Kenney Rocket Square.ttf::FontFile::7439442695840612102::1698099413::1698099415::1::::<><>::
+Kenney Rocket.ttf::FontFile::7301684369425075759::1698099413::1698099415::1::::<><>::
+Kenney Space.ttf::FontFile::6817619678893033685::1698099413::1698099414::1::::<><>::
+Kenney Thick.ttf::FontFile::2964008286603634512::1698099413::1698099414::1::::<><>::
+Preview.png::CompressedTexture2D::1032004642457352614::1698099413::1698099417::1::::<><>::
+::res://Scenes/::1698172803
+main.gd::GDScript::-1::1698172720::0::1::::<>Node2D<>::
+main.tscn::PackedScene::7198086949294769412::1698172723::0::1::::<><>::res://Scenes/main.gd<>uid://e6kupyu3uco4::::res://Scenes/Paddle/paddle.tscn<>uid://xsm2nf3lgo0n::::res://Scenes/wall.tscn<>res://Scenes/Paddle/enemy_paddle.gd<>uid://bw5krfpua7k72::::res://Scenes/Ball/ball.tscn<>uid://vvttoin4ngxq::::res://Final.tscn<>uid://qp2hcgo5q336::::res://elementGlass012.png<>uid://csn4ssq1ll01r::::res://Scenes/UI/ui.tscn<>uid://bhaa74xhr5fo6::::res://Flowing Rocks.ogg<>uid://c3t1d73s8xh0p::::res://Scenes/pause_menu.tscn
+menu_principal.tscn::PackedScene::2219467891296718087::1698172725::0::1::::<><>::res://Menu_principal.gd<>uid://bb3aoau3ul8hb::::res://Scenes/UI/UachLogo.png<>uid://cjyyafwsuwvqe::::res://Scenes/UI/pixelback.jpg<>uid://bgbf3lnemfb4j::::res://Fonts/Kenney Future Narrow.ttf<>uid://dgb5xai7w78uw::::res://Scenes/UI/Paddles.png<>uid://sh1cpu8vmf7b::::res://Fonts/Kenney Blocks.ttf
+pause_menu.gd::GDScript::-1::1698101759::0::1::::<>Control<>::
+pause_menu.gdshader::Shader::-1::1698172803::0::1::::<><>::
+pause_menu.tscn::PackedScene::6778937890636465285::1698172724::0::1::::<><>::res://Scenes/pause_menu.gd<>res://Scenes/pause_menu.gdshader
+wall.tscn::PackedScene::1652279715411168951::1698172724::0::1::::<><>::uid://boft1ojjg6iko::::res://Scenes/UI/Gradient.jpg
+::res://Scenes/Ball/::1698172724
+alienYellow_round.png::CompressedTexture2D::1330062891449751677::1697582685::1697582685::1::::<><>::
+ball.gd::GDScript::-1::1698101580::0::1::::Ball<>CharacterBody2D<>::
+ball.tscn::PackedScene::3993144391474450499::1698172724::0::1::::<><>::res://Scenes/Ball/ball.gd<>uid://s7j7amvcxx2t::::res://Scenes/Ball/alienYellow_round.png<>uid://c5xhdelg53v7p::::res://impactGeneric_light_004.ogg
+::res://Scenes/Paddle/::1698172723
+elementExplosive020.png::CompressedTexture2D::3522790720446358428::1697580276::1697580289::1::::<><>::
+elementGlass021.png::CompressedTexture2D::1676522383314760595::1697580411::1697580432::1::::<><>::
+elementMetal020.png::CompressedTexture2D::1649794832724673121::1697580503::1697580504::1::::<><>::
+enemy_paddle.gd::GDScript::-1::1698101714::0::1::::<>RigidBody2D<>::
+paddle.gd::GDScript::-1::1698101720::0::1::::<>RigidBody2D<>::
+paddle.tscn::PackedScene::345394796606218081::1698172723::0::1::::<><>::res://Scenes/Paddle/paddle.gd<>uid://bqgp333v20j0o::::res://Scenes/Paddle/elementExplosive020.png
+::res://Scenes/UI/::1698172724
+Gradient.jpg::CompressedTexture2D::3380587186548250042::1697583075::1697583080::1::::<><>::
+Paddles.png::CompressedTexture2D::7584322087547428642::1698100946::1698100953::1::::<><>::
+pixelback.jpg::CompressedTexture2D::5455543531500225064::1698100777::1698100778::1::::<><>::
+UachLogo.png::CompressedTexture2D::2514437137754953355::1698100487::1698100489::1::::<><>::
+ui.gd::GDScript::-1::1697578877::0::1::::UI<>CanvasLayer<>::
+ui.tscn::PackedScene::6064871372087733809::1698172724::0::1::::<><>::res://Scenes/UI/ui.gd
